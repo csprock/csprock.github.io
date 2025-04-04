@@ -13,16 +13,18 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MM
-email:
+title: Carson Sprock
+#subtitle: Personal Website
+email: csprock@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  "Carson Sprock's personal website"
 twitter_username: username
-github_username: username
-minimal_mistakes_skin: default
+github_username: csprock
+minimal_mistakes_skin: air
 search: true
+url: https://csprock.github.io
+breadcrumbs: false
+locale: en-GB
 
 # Build settings
 markdown: kramdown
@@ -57,36 +59,58 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
+# Site Author
 author:
-  name   : "First Lastname"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  name   : "Carson Sprock"
+  avatar : "/assets/images/bio-photo-cs.jpg"
+  bio    : "Data and Quantitative Specialist"
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+    # - label: "Website"
+    #   icon: "fas fa-fw fa-link"
+    #   url: "https://csprock.github.io"
+    # - label: "Twitter"
+    #   icon: "fab fa-fw fa-twitter-square"
+    #   url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/csprock"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/carson-sprock-68571732/"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:csprock@gmail.com"
+    - label: "Phone"
+      icon: "fas fa-fw fa-phone"
+      url: "tel:+41795288411"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://instagram.com/carson_sprock"
 
+# Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+    # - label: "Twitter"
+    #   icon: "fab fa-fw fa-twitter-square"
+    #   url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/csprock"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://instagram.com/carson_sprock"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/carson-sprock-68571732/"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:csprock@gmail.com"
+    - label: "Phone"
+      icon: "fas fa-fw fa-phone"
+      url: "tel:+41795288411"
 
+
+# Defaults
 defaults:
   # _posts
   - scope:
