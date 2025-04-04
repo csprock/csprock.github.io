@@ -20,7 +20,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   "Carson Sprock's personal website"
 twitter_username: username
 github_username: csprock
-minimal_mistakes_skin: air
+minimal_mistakes_skin: contrast
 search: true
 url: https://csprock.github.io
 breadcrumbs: false
