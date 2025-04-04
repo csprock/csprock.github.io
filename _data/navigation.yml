@@ -5,7 +5,9 @@ main:
     url: /experience/
   - title: "Education"
     url: /education/
-  # - title: "Posts"
+  - title: "Contact"
+    url: /contact/
+  # - title: "Projects"
   #   url: /posts/
   # - title: "Categories"
   #   url: /categories/

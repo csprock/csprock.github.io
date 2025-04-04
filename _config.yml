@@ -25,6 +25,8 @@ search: true
 url: https://csprock.github.io
 breadcrumbs: false
 locale: en-GB
+atom_feed:
+  hide: true
 
 # Build settings
 markdown: kramdown
@@ -83,9 +85,9 @@ author:
     - label: "Phone"
       icon: "fas fa-fw fa-phone"
       url: "tel:+41795288411"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/carson_sprock"
+    # - label: "Instagram"
+    #   icon: "fab fa-fw fa-instagram"
+    #   url: "https://instagram.com/carson_sprock"
 
 # Site Footer
 footer:
@@ -96,9 +98,9 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/csprock"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/carson_sprock"
+    # - label: "Instagram"
+    #   icon: "fab fa-fw fa-instagram"
+    #   url: "https://instagram.com/carson_sprock"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/carson-sprock-68571732/"
