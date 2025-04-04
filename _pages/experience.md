@@ -11,7 +11,7 @@ toc_sticky: true
 
 ## [Koch Supply & Trading](https://www.ksandt.com/)
 
-**Analyst** | Geneva, Switzerland | Nov 2023 - Feb 2025
+**Data Scientist, Front Office** | Geneva, Switzerland | Nov 2023 - Feb 2025
 
 - Worked on a derivatives trading desk specializing in crude oil and refined products
 - Built a global petroleum supply and demand balance model and provided forecasts and market updates
