@@ -33,4 +33,4 @@ With six years of experience, including three on petroleum trading desks, I have
 
 ---
 
-For more information about my work and background, please explore the navigation links or [contact me directly](mailto:csprock@gmail.com).
+For more information about my work and background, please explore the navigation links or [contact me directly](/contact/).
