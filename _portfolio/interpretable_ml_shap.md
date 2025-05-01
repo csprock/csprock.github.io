@@ -1,8 +1,8 @@
 ---
 title: "Interpretable Machine Learning with SHAP Values"
-excerpt: "Exerpt"
+excerpt: "An Introduction"
 header:
-  teaser: //assets/images/bmdcluster.png
+  teaser: /assets/images/shap.png
 toc: false
 toc_label: "Sections"
 toc_sticky: true
