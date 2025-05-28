@@ -65,6 +65,8 @@ include:
 #   - vendor/gems/
 #   - vendor/ruby/
 
+mathjax: true
+
 # Plugins (previously gems:)
 plugins:
   - jekyll-paginate

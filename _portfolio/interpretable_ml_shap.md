@@ -8,6 +8,7 @@ toc_label: "Sections"
 toc_sticky: true
 classes:
     - wide
+math: true
 ---
 
 
