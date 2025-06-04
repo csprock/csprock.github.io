@@ -8,10 +8,17 @@ toc_label: "Experience Sections"
 toc_sticky: true
 ---
 
+## [Genevalytics](https://genevalytics.github.io/)
+
+**Co-Founder** | Geneva, Switzerland | Apr 2025 - Present
+
+- Co-founded a speaker and meetup series focused on data and analytics in partnership [WeData](https://wedata.ch/), an association at the University of Geneva
+- Prepared presentations on [interpretable machine learning](https://csprock.github.io/portfolio/interpretable_ml_shap/), [linear optimization](https://github.com/csprock/linear_optimization_with_python) and [Docker](https://github.com/csprock/docker_tutorials)
+
 
 ## [Koch Supply & Trading](https://www.ksandt.com/)
 
-**Data Scientist, Front Office** | Geneva, Switzerland | Nov 2023 - Feb 2025
+**Data Scientist, Front Office** | Geneva, Switzerland | Nov 2023 - Apr 2025
 
 - Worked on a derivatives trading desk specializing in crude oil and refined products
 - Built a global petroleum supply and demand balance model and provided forecasts and market updates
