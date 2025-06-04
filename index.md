@@ -19,7 +19,7 @@ With six years of experience, including three on petroleum trading desks, I have
 
 ## Skills
 
-- **Technology**: Bloomberg, Python, Excel, Dash, R, Docker, PowerBI, AWS, SQL
+- **Technology**: Bloomberg, Python, Excel, Dash, R, Docker, AWS, SQL
 - **Modeling**: time series, econometrics, machine learning, linear programming, S/D balances
 
 
