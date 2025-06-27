@@ -12,7 +12,6 @@ math: true
 ---
 
 
-# Introduction to Linear Optimization in Python
 
 Linear optimization (also known as linear programming) is a powerful mathematical technique used to find the best outcome in a mathematical model whose requirements are represented by linear relationships. It's a cornerstone of operations research that helps organizations make optimal decisions when faced with complex constraints and competing objectives.
 
