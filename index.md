@@ -25,11 +25,7 @@ With six years of experience, including three on petroleum trading desks, I have
 
 [View My Experience](/experience/){: .btn .btn--info} [View My Education](/education/){: .btn .btn--info}
 
-## Recent Projects
 
-- Global petroleum supply/demand balance modeling
-- Commodity Index Fund flow estimation using CFTC data
-- End-to-end crude oil blending optimization application
 
 ---
 
