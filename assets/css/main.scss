@@ -59,6 +59,18 @@ body {
   }
 }
 
+/* Author profile sidebar font sizes
+   .author__name     — the name displayed at the top of the sidebar
+   .sidebar p, li    — bio text and social media link labels
+*/
+.sidebar .author__name {
+  font-size: 1.1em;
+}
+
+.sidebar p, .sidebar li {
+  font-size: 1em;
+}
+
 /* TOC depth limit
    Each nested ul is one heading level deeper (h2 -> h3 -> h4 ...).
    To show N levels, hide the (N+1)th ul by changing the selector below.
