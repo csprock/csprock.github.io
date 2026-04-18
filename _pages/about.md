@@ -3,4 +3,4 @@ permalink: /about/
 title: "About"
 ---
 
-With nearly six years of experience, including three on petroleum trading desks, I have a broad background spanning statistical modeling, machine learning, ad-hoc analysis, visualization, tool development, automation, backend engineering, and model deployment, with applications in commodities trading and ground freight.
+With seven years of experience, including four on petroleum trading desks, I have a broad background spanning statistical modeling, petroleum market analysis, supply/demand balances, visualization, tool development, automation, backend engineering, model deployment and project management, with applications in commodities trading and ground freight.
