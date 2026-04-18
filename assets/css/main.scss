@@ -1,0 +1,56 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+/* Custom font settings */
+$serif: "Lora", "Georgia", "Times New Roman", serif;
+$sans-serif: "Roboto", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+$monospace: "Courier New", Courier, monospace;
+
+$global-font-family: $serif;
+$header-font-family: $serif;
+$caption-font-family: $monospace;
+
+/* Font sizes */
+$type-size-1: 2.441em;
+$type-size-2: 1.953em;
+$type-size-3: 1.563em;
+$type-size-4: 1.25em;
+$type-size-5: 1em;
+$type-size-6: 0.75em;
+$type-size-7: 0.6875em;
+$type-size-8: 0.625em;
+
+/* Layout */
+$right-sidebar-width: 200px;
+
+/* Skin and theme imports */
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes";
+
+/* Custom styles */
+body {
+  font-size: 18px;
+  line-height: 1.6;
+
+  a {
+    color: #1f1d1a;
+    &:visited { color: #1f1d1a; }
+    &:hover { color: #3a6d78; }
+  }
+}
+
+.page__content {
+  p, li, dl {
+    font-size: 1em;
+  }
+}
+
+@media (min-width: 64em) {
+  #main:not(:has(.sidebar)) .page {
+    float: none;
+    width: 100%;
+    padding-inline-end: 0;
+  }
+}
