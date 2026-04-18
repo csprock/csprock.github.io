@@ -1,16 +1,15 @@
-FROM ruby:latest
+FROM ruby:3.3
 
 WORKDIR /site
 
 # Install dependencies
 RUN apt-get update && apt-get install -y \
-    build-essential \
     nodejs \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
 # Copy Gemfile and install gems
-COPY Gemfile .
+COPY Gemfile Gemfile.lock ./
 RUN bundle install
 
 # Copy the rest of the site
