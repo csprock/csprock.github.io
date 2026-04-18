@@ -46,3 +46,11 @@ body {
     font-size: 1em;
   }
 }
+
+@media (min-width: 64em) {
+  #main:not(:has(.sidebar)) .page {
+    float: none;
+    width: 100%;
+    padding-inline-end: 0;
+  }
+}
