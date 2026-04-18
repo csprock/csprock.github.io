@@ -3,14 +3,15 @@ title: "Interpretable Machine Learning with SHAP Values"
 excerpt: "An Introduction"
 header:
   teaser: /assets/images/shap.png
-toc: false
+toc: true
 toc_label: "Sections"
-toc_sticky: true
+toc_sticky: false
 classes:
     - wide
 math: true
 ---
 
+# Introduction
 
 Explaining how a model arrived at a prediction is an important part of using machine learning. In this post, we will be exploring how to use SHAP values, a widely used model interpretation method, and compare them with other methods. You will learn what SHAP values are and how to apply them using the popular `shap` Python library.
 
@@ -119,7 +120,7 @@ if PROFILE:
 
 
 
-# A Motivating Example: Linear Regression
+## A Motivating Example: Linear Regression
 
 Linear regression models are simple enough to be considered "intrinsically interpretable". The prediction from a linear model is simply the sum of the products of model coefficients and the variable values. 
 
@@ -460,7 +461,7 @@ for feature, importance in gain_importance.items():
     MedInc: 0.403173
 
 
-## Introduction to SHAP Values for Tree-Based Models
+# Introduction to SHAP Values for Tree-Based Models
 
 SHAP values stand for **SHapley Additive Predictions** were introduced in 2017 by Lundberg and Lee [1]. They are based on Shapely values from cooperative game theory, which is a theoretically sound way to fairly allocate the payouts to players in a coopoerative game. We won't take the game theory connections too far here, but you can think of the "game" as the machine learning model being explained, the "players" as the input features to the model, and the "payout" the model predictions. SHAP values calculate the contribution each feature made to the prediction. 
 
@@ -480,7 +481,7 @@ $$
 
 These properties unlock a variety of rich visualizations and diagnostic plots that we can use in place of the global feature importance measures that we just discussed. They can also be augmented by traditional Partial Dependence Plots and Individual Conditional Expectation plots, both of which we will review later in this presentation. 
 
-### Some SHAP Theory
+## Some SHAP Theory
 
 Formally, let 
 
@@ -523,7 +524,7 @@ In steps:
 
 Let's unpack the last of these. 
 
-##### The Conditional Expectation
+### The Conditional Expectation
 
 What does $E[f(x) \vert x_S]$ mean? 
 
@@ -531,7 +532,7 @@ What does $E[f(x) \vert x_S]$ mean?
 
 In SHAP, we are setting aside the features $i$ and the features in $S$, holding their values constant for a particular data point, then averaging over the remaining features with and with out $i$ and then computing the difference to see the effect of adding $i$ has on the model output. 
 
-##### The Weights 
+### The Weights 
 The weights in the sum above are the probability of selecting a particular subset. The term has two parts: 
 
 Given a feature $i$, the number of subsets of $S\subseteq F / \{i \}$ is
@@ -629,7 +630,7 @@ len(X.columns) * total_combinations
 That is a lot of subsets! As you can see, the number of subsets explodes exponentially with the number of features.
 
 
-### Computational Difficulties and TreeSHAP
+## Computational Difficulties and TreeSHAP
 
 There are two main issues with SHAP values:
 
@@ -1083,14 +1084,14 @@ plt.tight_layout()
     <Figure size 640x480 with 0 Axes>
 
 
-### Using with Partial Dependence Plots
+#### Using with Partial Dependence Plots
 
 **Partial Dependence Plots (PDPs)** complement SHAP values by showing how the model's predicted output changes as a function of a single feature, averaging over all other features. While SHAP values show the importance of features for individual predictions, PDPs provide a global view of how a feature affects predictions across the entire dataset.
 
 
 PDPs illustrate the *marginal effect* of a feature on the predicted outcome by showing the average effect of the feature on the prediction, marginalized over all other features. What this essentially means is varying the value of a single feature while averaging over the remaining features. (Note on causaulity: the effect is specific to the model, and not necessarily causal in reality). 
 
-#### Differences Between SHAP and PDPs
+##### Differences Between SHAP and PDPs
 
 - **SHAP values**: Show contribution of a feature to a specific prediction, accounting for feature interactions
 - **PDPs**: Show the average effect of a feature across all predictions, averaging out interactions
@@ -1226,11 +1227,11 @@ plt.show()
     
 
 
-## Individual Conditional Expectation (ICE) Plots
+### Individual Conditional Expectation (ICE) Plots
 
 **Individual Conditional Expectation (ICE)** plots extend Partial Dependence Plots (PDPs) by showing the relationship between a feature and the prediction for *individual instances* rather than just the average effect.
 
-### How ICE Plots Relate to PDPs:
+#### How ICE Plots Relate to PDPs:
 
 - **PDP**: Shows the average effect of a feature on predictions across all instances
 - **ICE**: Shows the effect for each individual instance as a separate line (the PDP is the average of the curves on the ICE plot)
@@ -1246,7 +1247,7 @@ ICE plots provide several advantages:
 
 For a given sample instance and a given feature, the ICE plot will fix the values of all other features then allow the feature of instance to vary across its range, tracing out how prediction changes while holding all other feature values fixed. 
 
-### Centered ICE Plots
+#### Centered ICE Plots
 
 Centered ICE plots anchor all lines at a common reference point (usually the minimum feature value), making it easier to compare the relative changes across instances. This helps identify:
 

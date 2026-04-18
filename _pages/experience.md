@@ -4,13 +4,13 @@ permalink: /experience/
 layout: single
 author_profile: false
 toc: true
-toc_label: "Experience Sections"
-toc_sticky: true
+toc_label: "Experience"
+toc_sticky: false
 ---
 
 ## [ConocoPhillips](https://www.conocophillips.com/)
 
-**Co-Founder** | Geneva, Switzerland | Apr 2025 - Present
+**Senior Crude Strategist** | Houston, Texas | Feb 2026 - Present
 
 - Founding member of the market analysis team building fundamental models and analytic systems for crude trading.
 
@@ -48,7 +48,7 @@ toc_sticky: true
 - Led the development of systematic trading algorithms and tools written in Python.
 - Became an expert in CFTC Commitment of Traders data, conducted statistical analysis and built a reporting application in Dash with a Redis, AWS S3 and Lambda backend.
 - Developed an end-to-end crude oil blending application in AWS and Plotly/Dash which enabled near real-time identification of blend arbitrage opportunities. 
-- Reformulated a complex legacy crude oil blending model via linearization, reducing solve time from \textasciitilde20 minutes to sub-second and yielding exact solutions instead of approximations.
+- Reformulated a complex legacy crude oil blending model via linearization, reducing solve time from ~20 minutes to sub-second and yielding exact solutions instead of approximations.
 - Created a linear programming model of supply/demand matching and user-interface in Dash deployed to AWS with a Lambda and S3 backend.
 - Forecasted pipeline flows and refinery utilization rates using R.
 

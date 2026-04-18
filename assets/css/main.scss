@@ -23,7 +23,7 @@ $type-size-7: 0.6875em;
 $type-size-8: 0.625em;
 
 /* Layout */
-$right-sidebar-width: 200px;
+$right-sidebar-width: 240px;
 
 /* Skin and theme imports */
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
@@ -45,6 +45,10 @@ body {
   p, li, dl {
     font-size: 1em;
   }
+
+  ul li, ol li {
+    margin-bottom: 0.1em;
+  }
 }
 
 @media (min-width: 64em) {
@@ -53,4 +57,14 @@ body {
     width: 100%;
     padding-inline-end: 0;
   }
+}
+
+/* TOC depth limit
+   Each nested ul is one heading level deeper (h2 -> h3 -> h4 ...).
+   To show N levels, hide the (N+1)th ul by changing the selector below.
+   Current setting: 2 levels (h2 + h3). To show 3 levels, change to:
+     .toc__menu li ul li ul li ul { display: none; }
+*/
+.toc__menu li ul {
+  display: none;
 }

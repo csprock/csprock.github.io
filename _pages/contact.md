@@ -27,16 +27,16 @@ author_profile: false
   </div>
   
   <div class="contact-item">
-    <a href="tel:+41795288411">
-      <i class="fas fa-fw fa-phone" aria-hidden="true"></i> +41 79 528 84 11
+    <a href="tel:+16507224333">
+      <i class="fas fa-fw fa-phone" aria-hidden="true"></i> +1 650 722 4333
     </a>
   </div>
   
-  <!-- <div class="contact-item">
+  <div class="contact-item">
     <a href="https://instagram.com/carson_sprock">
       <i class="fab fa-fw fa-instagram" aria-hidden="true"></i> Instagram
     </a>
-  </div> -->
+  </div>
 </div>
 
 <style>
