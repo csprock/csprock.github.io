@@ -10,7 +10,7 @@ toc_sticky: true
 
 ## [ConocoPhillips](https://www.conocophillips.com/)
 
-**Co-Founder** | Geneva, Switzerland | Apr 2025 - Present
+**Senior Crude Strategist** | Houston, Texas | Feb 2026 - Present
 
 - Founding member of the market analysis team building fundamental models and analytic systems for crude trading.
 
