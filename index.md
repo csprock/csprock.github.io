@@ -11,7 +11,7 @@ classes:
 
 ## About
 
-With six years of experience, including three on petroleum trading desks, I have a broad background spanning statistical modeling, machine learning, ad-hoc analysis, visualization, tool development, automation, backend engineering, and model deployment, with applications in commodities trading and ground freight.
+With seven years of experience, including four on petroleum trading desks, I have a broad background spanning statistical modeling, petroleum market analysis, supply/demand balances, visualization, tool development, automation, backend engineering, model deployment and project management, with applications in commodities trading and ground freight.
 
 [<i class="fas fa-download" aria-hidden="true"></i> Download Resume](/assets/files/resume.pdf){: .btn .btn--primary}
 
@@ -23,10 +23,6 @@ With six years of experience, including three on petroleum trading desks, I have
 - **Modeling**: time series, econometrics, machine learning, linear programming, S/D balances
 
 
-[View My Experience](/experience/){: .btn .btn--info} [View My Education](/education/){: .btn .btn--info}
-
-
-
 ---
 
-For more information about my work and background, please explore the navigation links or [contact me directly](/contact/).
+For more information about my work and background, please explore the website sections or [contact me directly](/contact/).
