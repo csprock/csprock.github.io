@@ -4,7 +4,7 @@
 @charset "utf-8";
 
 /* Custom font settings */
-$serif: "Lora", "Georgia", "Times New Roman", serif;
+$serif: "Literata", "Georgia", "Times New Roman", serif;
 $sans-serif: "Roboto", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
 $monospace: "Courier New", Courier, monospace;
 
@@ -28,6 +28,14 @@ $right-sidebar-width: 240px;
 /* Skin and theme imports */
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes";
+
+/* Main content max width
+   Controls the maximum width of the #main container at >=80em viewports.
+   Default theme value is 1280px. Change this to widen or narrow the content area.
+*/
+#main {
+  max-width: 950px;
+}
 
 /* Custom styles */
 body {
