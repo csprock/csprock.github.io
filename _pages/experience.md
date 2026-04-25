@@ -28,7 +28,7 @@ toc_sticky: false
 **Co-Founder** | Geneva, Switzerland | Apr 2025 - July 2025
 
 - Co-founded a speaker and meetup series focused on data and analytics in partnership with [WeData](https://wedata.ch/), a data analysis association at the University of Geneva.
-- Prepared presentations on [interpretable machine learning](https://csprock.github.io/portfolio/interpretable_ml_shap/), [linear optimization](https://github.com/csprock/linear_optimization_with_python) and [Docker](https://github.com/csprock/docker_tutorials)
+- Prepared presentations on [interpretable machine learning](https://csprock.github.io/portfolio/interpretable_ml_shap/), [linear optimization](https://csprock.github.io/portfolio/linear_optimization/) and [Docker](https://github.com/csprock/docker_tutorials)
 
 
 ## [Koch Supply & Trading](https://www.ksandt.com/)
