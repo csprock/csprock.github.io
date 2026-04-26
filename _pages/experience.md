@@ -11,12 +11,14 @@ toc_sticky: false
 ## [ConocoPhillips](https://www.conocophillips.com/)
 
 **Senior Crude Strategist** | Houston, Texas | Feb 2026 - Present
+{: .job-meta}
 
 - Founding member of the market analysis team building fundamental models and analytic systems for crude trading.
 
 ## [PetroChina International, Americas](http://www.petrochinaintl.com.cn/intlen/)
 
 **Refined Products Analyst** | Houston, Texas | Sept 2025 - Jan 2026
+{: .job-meta}
 
 - Worked on a physical refined products desk primarily covering heating oil/ULSD. 
 - Built and maintained US supply and demand balances for middle distillates, providing forecasts, market updates and views. 
@@ -26,6 +28,7 @@ toc_sticky: false
 ## [Genevalytics](https://genevalytics.github.io/)
 
 **Co-Founder** | Geneva, Switzerland | Apr 2025 - July 2025
+{: .job-meta}
 
 - Co-founded a speaker and meetup series focused on data and analytics in partnership with [WeData](https://wedata.ch/), a data analysis association at the University of Geneva.
 - Prepared presentations on [interpretable machine learning](https://csprock.github.io/portfolio/interpretable_ml_shap/), [linear optimization](https://csprock.github.io/portfolio/linear_optimization/) and [Docker](https://github.com/csprock/docker_tutorials)
@@ -34,6 +37,7 @@ toc_sticky: false
 ## [Koch Supply & Trading](https://www.ksandt.com/)
 
 **Data Scientist, Front Office** | Geneva, Switzerland | Nov 2023 - Apr 2025
+{: .job-meta}
 
 - Worked on a derivatives trading desk specializing in crude oil and refined products.
 - Built a global petroleum supply and demand balance model and provided forecasts and market updates.
@@ -42,6 +46,7 @@ toc_sticky: false
 - Developed dashboards for traders in Plotly.
 
 **Data Scientist, Front Office** | Houston, TX | Feb 2022 - Nov 2023
+{: .job-meta}
 
 - Worked for the physical crude trading desk serving dual roles as individual contributor and project manager. 
 - Coordinated data acquisition and analytic tool development for front office with IT.
@@ -55,12 +60,14 @@ toc_sticky: false
 ## [Sysco](https://www.sysco.com/)
 
 **Data Scientist** | Houston, TX | Sept 2020 - Nov 2020
+{: .job-meta}
 
 - Conducted analysis using Python and SQL before I unfortunately had to take medical leave.
 
 ## [C.H. Robinson](https://www.chrobinson.com/en-US/)
 
 **Data Scientist** | Minneapolis, MN | Sept 2018 - Sept 2020
+{: .job-meta}
 
 - Served as an individual contributor on the contractual pricing and supply chain visibility teams for the largest North American ground freight broker. 
 - Maintained and improved long-term price forecasting system spanning five repositories in R and Python deployed as Dockerized microservices on Linux servers.
@@ -77,6 +84,7 @@ toc_sticky: false
 ## [phData, Inc](https://www.phdata.io/)
 
 **Data Engineer Intern** | Minneapolis, MN | June 2018 - August 2018
+{: .job-meta}
 
 - Built a streaming "internet-of-things" data pipeline to capture flow telemetry from beer kegs with an integrated recommender system connected to Slack (similar to MS Teams).
 - Programmed a microcontroller and mini-computer to process data using Python.
@@ -84,5 +92,6 @@ toc_sticky: false
 ## [First Community Housing](http://www.firstcommunityhousing.org/)
 
 **Data Analyst (Contract)** | San Jose, CA | March 2018 - July 2018
+{: .job-meta}
 
 - Analyzed crime data using Python to determine if new management policy lowered crime rates around an affordable housing complex.
