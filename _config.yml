@@ -19,7 +19,7 @@ email: csprock@gmail.com
 description: >-
   Carson Sprock is a Market Analyst and Data Scientist. Explore his portfolio of data science projects, professional experience, and technical writing.
 github_username: csprock
-minimal_mistakes_skin: cream
+minimal_mistakes_skin: default
 search: true
 url: https://csprock.github.io
 baseurl: ""
