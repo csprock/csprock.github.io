@@ -25,8 +25,44 @@ $type-size-8: 0.625em;
 /* Layout */
 $right-sidebar-width: 240px;
 
-/* Skin and theme imports */
+/* =====================================================================
+   Warm gold/amber palette
+   ===================================================================== */
+$cEspresso:      #1F1612;
+$cCharcoalWarm:  #2A1F18;
+$cRoasted:       #4A372A;
+$cWalnut:        #6B4A33;
+$cWarmTan:       #8A6240;
+$cAmber:         #C68A4A;
+$cSignatureGold: #D49A52;
+$cRichGold:      #E9B864;
+$cBrightGold:    #F4D27A;
+$cPaleGold:      #F8E9B4;
+$cCream:         #FBF5E6;
+$cInk:           #1F1612;
+$cSlate:         #4A4640;
+$cStone:         #7A746A;
+$cMist:          #C9C2B5;
+$cPaper:         #FBF5E6;
+
+/* Skin import (sets Minimal Mistakes skin variables) */
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+
+/* Override Minimal Mistakes skin variables AFTER the skin import so our
+   values win, but BEFORE the main theme import so the theme picks them up. */
+$background-color:        $cPaper;
+$text-color:              $cInk;
+$muted-text-color:        $cStone;
+$primary-color:           $cWalnut;
+$border-color:            $cMist;
+$code-background-color:   $cCream;
+$footer-background-color: $cPaper;
+$link-color:              $cWalnut;
+$link-color-hover:        $cAmber;
+$link-color-visited:      $cWalnut;
+$masthead-link-color:     $cRoasted;
+$masthead-link-color-hover: $cAmber;
+
 @import "minimal-mistakes";
 
 /* Main content max width
@@ -43,11 +79,24 @@ body {
   line-height: 1.6;
 
   a {
-    color: #1f1d1a;
-    &:visited { color: #1f1d1a; }
-    &:hover { color: #3a6d78; }
+    color: $cWalnut;
+    &:visited { color: $cWalnut; }
+    &:hover { color: $cAmber; }
   }
 }
+
+/* Palette accents */
+.page__content {
+  h1, h2, h3, h4, h5, h6 { color: $cRoasted; }
+  strong { color: $cWalnut; }
+  blockquote {
+    border-left-color: $cSignatureGold;
+  }
+}
+
+.sidebar .author__name { color: $cRoasted; }
+
+.job-meta { color: $cStone; }
 
 .page__content {
   p, li, dl {
