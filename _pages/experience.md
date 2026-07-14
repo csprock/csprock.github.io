@@ -14,6 +14,7 @@ toc_sticky: false
 {: .job-meta}
 
 - Founding member of the market analysis team building fundamental models and analytic systems for crude trading.
+- Created "Lighthouse", the flagship commercial analytics platform that was scaled to four commercial trading groups covering the whole of ConocoPhillips’ portfolio.
 
 ## [PetroChina International, Americas](http://www.petrochinaintl.com.cn/intlen/)
 
